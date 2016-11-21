@@ -6,25 +6,25 @@ import { HttpModule, JsonpModule } from '@angular/http';
 
 
 import { AppComponent }         from './app.component';
-import { CountryService }          from './country.service';
+//import { CountryService }          from './country.service';
 
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-     HttpModule,
-    JsonpModule
-    
-    
+    HttpModule,
+    JsonpModule  
   ],
   declarations: [
-    AppComponent,
+    //AppComponent sample app component
   ],
   providers: [
-    CountryService
+    //CountryService  sample service
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [
+    //AppComponent sample app component
+  ]
 })
 export class AppModule {
 }
